@@ -1,0 +1,1273 @@
+Wed, 20 Apr 2016 20:43:25 _legacy.py[line:154] CRITICAL Unhandled error in Deferred:
+Wed, 20 Apr 2016 20:43:25 _legacy.py[line:154] CRITICAL 
+Wed, 20 Apr 2016 20:48:36 _legacy.py[line:154] CRITICAL Unhandled error in Deferred:
+Wed, 20 Apr 2016 20:48:36 _legacy.py[line:154] CRITICAL 
+Wed, 20 Apr 2016 20:51:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 20:51:42 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 105, in _next_request
+    while not self._needs_backout(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 128, in _needs_backout
+    or self.downloader.needs_backout(spider) \
+exceptions.TypeError: needs_backout() takes exactly 1 argument (2 given)
+
+Wed, 20 Apr 2016 20:51:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 20:51:42 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 105, in _next_request
+    while not self._needs_backout(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 128, in _needs_backout
+    or self.downloader.needs_backout(spider) \
+exceptions.TypeError: needs_backout() takes exactly 1 argument (2 given)
+
+Wed, 20 Apr 2016 20:51:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 20:51:47 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 105, in _next_request
+    while not self._needs_backout(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 128, in _needs_backout
+    or self.downloader.needs_backout(spider) \
+exceptions.TypeError: needs_backout() takes exactly 1 argument (2 given)
+
+Wed, 20 Apr 2016 20:52:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 20:52:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 20:52:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 20:53:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 20:53:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 20:53:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 20:53:54 _legacy.py[line:154] CRITICAL Unhandled error in Deferred:
+Wed, 20 Apr 2016 20:53:54 _legacy.py[line:154] CRITICAL 
+Wed, 20 Apr 2016 20:53:58 _legacy.py[line:154] CRITICAL Unhandled error in Deferred:
+Wed, 20 Apr 2016 20:53:58 _legacy.py[line:154] CRITICAL 
+Wed, 20 Apr 2016 20:54:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 20:54:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 20:54:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 20:55:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 20:55:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 20:55:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 20:56:20 _legacy.py[line:154] CRITICAL Unhandled error in Deferred:
+Wed, 20 Apr 2016 20:56:20 _legacy.py[line:154] CRITICAL 
+Wed, 20 Apr 2016 20:56:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 20:56:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 20:56:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 20:57:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 20:57:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 20:57:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 20:58:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 20:58:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 20:58:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 20:59:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 20:59:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 20:59:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:00:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:00:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:00:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:01:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:01:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:01:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:02:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:02:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:02:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:03:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:03:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:03:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:04:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:04:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:04:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:05:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:05:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:05:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:06:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:06:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:06:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:07:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:07:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:07:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:08:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:08:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:08:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:09:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:09:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:09:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:10:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:10:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:10:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:10:52 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:10:52 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 106, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 136, in _next_request_from_scheduler
+    d = self._download(request, spider)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 224, in _download
+    dwld = self.downloader.fetch(request, spider)
+  File "/home/zhangrui/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 267, in fetch
+    self.actives.print_use()
+  File "/home/zhangrui/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 136, in print_use
+    logfile().log("spider " + k + " has " + str(len(v)) + " active request")
+  File "/home/zhangrui/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 42, in log
+    t_file = codecs.open(file_name, 'a', encoding='utf-8')
+  File "/usr/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+exceptions.IOError: [Errno 2] No such file or directory: '/home/zhangrui/whu_gs/log/request_log/log-2016-04-20.txt'
+
+Wed, 20 Apr 2016 21:10:53 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:10:53 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 106, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 136, in _next_request_from_scheduler
+    d = self._download(request, spider)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 224, in _download
+    dwld = self.downloader.fetch(request, spider)
+  File "/home/zhangrui/未命名文件夹/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 267, in fetch
+    self.actives.print_use()
+  File "/home/zhangrui/未命名文件夹/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 136, in print_use
+    logfile().log("spider " + k + " has " + str(len(v)) + " active request")
+  File "/home/zhangrui/未命名文件夹/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 42, in log
+    t_file = codecs.open(file_name, 'a', encoding='utf-8')
+  File "/usr/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+exceptions.IOError: [Errno 2] No such file or directory: '/home/zhangrui/\xe6\x9c\xaa\xe5\x91\xbd\xe5\x90\x8d\xe6\x96\x87\xe4\xbb\xb6\xe5\xa4\xb9/whu_gs/log/request_log/log-2016-04-20.txt'
+
+Wed, 20 Apr 2016 21:11:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:11:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:11:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:11:52 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:11:53 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:12:16 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:12:16 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 106, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 136, in _next_request_from_scheduler
+    d = self._download(request, spider)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 224, in _download
+    dwld = self.downloader.fetch(request, spider)
+  File "/home/zhangrui/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 267, in fetch
+    self.actives.print_use()
+  File "/home/zhangrui/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 136, in print_use
+    logfile().log("spider " + k + " has " + str(len(v)) + " active request")
+  File "/home/zhangrui/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 42, in log
+    t_file = codecs.open(file_name, 'a', encoding='utf-8')
+  File "/usr/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+exceptions.IOError: [Errno 2] No such file or directory: '/home/zhangrui/whu_gs/log/request_log/log-2016-04-20.txt'
+
+Wed, 20 Apr 2016 21:12:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:12:20 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 106, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 136, in _next_request_from_scheduler
+    d = self._download(request, spider)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 224, in _download
+    dwld = self.downloader.fetch(request, spider)
+  File "/home/zhangrui/未命名文件夹/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 267, in fetch
+    self.actives.print_use()
+  File "/home/zhangrui/未命名文件夹/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 136, in print_use
+    logfile().log("spider " + k + " has " + str(len(v)) + " active request")
+  File "/home/zhangrui/未命名文件夹/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 42, in log
+    t_file = codecs.open(file_name, 'a', encoding='utf-8')
+  File "/usr/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+exceptions.IOError: [Errno 2] No such file or directory: '/home/zhangrui/\xe6\x9c\xaa\xe5\x91\xbd\xe5\x90\x8d\xe6\x96\x87\xe4\xbb\xb6\xe5\xa4\xb9/whu_gs/log/request_log/log-2016-04-20.txt'
+
+Wed, 20 Apr 2016 21:12:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:12:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:12:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:12:52 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:12:54 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:13:16 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:13:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:13:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:13:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:13:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:13:52 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:13:53 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:14:01 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:14:01 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 106, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 136, in _next_request_from_scheduler
+    d = self._download(request, spider)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 224, in _download
+    dwld = self.downloader.fetch(request, spider)
+  File "/home/zhangrui/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 267, in fetch
+    self.actives.print_use()
+  File "/home/zhangrui/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 136, in print_use
+    logfile().log("spider " + k + " has " + str(len(v)) + " active request")
+  File "/home/zhangrui/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 42, in log
+    t_file = codecs.open(file_name, 'a', encoding='utf-8')
+  File "/usr/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+exceptions.IOError: [Errno 2] No such file or directory: '/home/zhangrui/whu_gs/log/request_log/log-2016-04-20.txt'
+
+Wed, 20 Apr 2016 21:14:03 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:14:03 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 106, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 136, in _next_request_from_scheduler
+    d = self._download(request, spider)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 224, in _download
+    dwld = self.downloader.fetch(request, spider)
+  File "/home/zhangrui/未命名文件夹/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 267, in fetch
+    self.actives.print_use()
+  File "/home/zhangrui/未命名文件夹/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 136, in print_use
+    logfile().log("spider " + k + " has " + str(len(v)) + " active request")
+  File "/home/zhangrui/未命名文件夹/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 42, in log
+    t_file = codecs.open(file_name, 'a', encoding='utf-8')
+  File "/usr/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+exceptions.IOError: [Errno 2] No such file or directory: '/home/zhangrui/\xe6\x9c\xaa\xe5\x91\xbd\xe5\x90\x8d\xe6\x96\x87\xe4\xbb\xb6\xe5\xa4\xb9/whu_gs/log/request_log/log-2016-04-20.txt'
+
+Wed, 20 Apr 2016 21:14:16 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:14:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:14:27 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:14:27 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 106, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 136, in _next_request_from_scheduler
+    d = self._download(request, spider)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 224, in _download
+    dwld = self.downloader.fetch(request, spider)
+  File "/home/zhangrui/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 267, in fetch
+    self.actives.print_use()
+  File "/home/zhangrui/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 136, in print_use
+    logfile().log("spider " + k + " has " + str(len(v)) + " active request")
+  File "/home/zhangrui/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 42, in log
+    t_file = codecs.open(file_name, 'a', encoding='utf-8')
+  File "/usr/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+exceptions.IOError: [Errno 2] No such file or directory: '/home/zhangrui/whu_gs/log/request_log/log-2016-04-20.txt'
+
+Wed, 20 Apr 2016 21:14:29 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:14:29 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 106, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 136, in _next_request_from_scheduler
+    d = self._download(request, spider)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 224, in _download
+    dwld = self.downloader.fetch(request, spider)
+  File "/home/zhangrui/未命名文件夹/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 267, in fetch
+    self.actives.print_use()
+  File "/home/zhangrui/未命名文件夹/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 136, in print_use
+    logfile().log("spider " + k + " has " + str(len(v)) + " active request")
+  File "/home/zhangrui/未命名文件夹/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 42, in log
+    t_file = codecs.open(file_name, 'a', encoding='utf-8')
+  File "/usr/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+exceptions.IOError: [Errno 2] No such file or directory: '/home/zhangrui/\xe6\x9c\xaa\xe5\x91\xbd\xe5\x90\x8d\xe6\x96\x87\xe4\xbb\xb6\xe5\xa4\xb9/whu_gs/log/request_log/log-2016-04-20.txt'
+
+Wed, 20 Apr 2016 21:14:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:14:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:14:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:14:52 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:14:53 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:15:01 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:15:03 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:15:16 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:15:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:15:27 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:15:29 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:15:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:15:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:15:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:15:52 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:15:53 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:16:01 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:16:03 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:16:16 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:16:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:16:27 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:16:29 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:16:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:16:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:16:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:16:52 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:16:54 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:17:00 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:17:00 mdownloader.py[line:240] INFO nothing
+Wed, 20 Apr 2016 21:17:01 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/exception_count': 1,
+ 'downloader/exception_type_count/_mysql_exceptions.ProgrammingError': 1,
+ 'downloader/request_bytes': 251,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 20, 13, 17, 1, 139007),
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 2,
+ 'scheduler/dequeued/redis': 1,
+ 'scheduler/enqueued/redis': 1,
+ 'start_time': datetime.datetime(2016, 4, 20, 13, 17, 0, 816753)}
+Wed, 20 Apr 2016 21:17:01 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:17:02 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:17:02 mdownloader.py[line:240] INFO nothing
+Wed, 20 Apr 2016 21:17:03 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/exception_count': 1,
+ 'downloader/exception_type_count/_mysql_exceptions.ProgrammingError': 1,
+ 'downloader/request_bytes': 231,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 20, 13, 17, 3, 92458),
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 2,
+ 'scheduler/dequeued/redis': 1,
+ 'scheduler/enqueued/redis': 1,
+ 'start_time': datetime.datetime(2016, 4, 20, 13, 17, 2, 773760)}
+Wed, 20 Apr 2016 21:17:03 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:17:16 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:17:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:17:27 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:17:29 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:17:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:17:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:17:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:17:52 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:17:53 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:18:01 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:18:03 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:18:16 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:18:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:18:27 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:18:29 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:18:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:18:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:18:43 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:18:43 mdownloader.py[line:240] INFO nothing
+Wed, 20 Apr 2016 21:18:43 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/exception_count': 1,
+ 'downloader/exception_type_count/_mysql_exceptions.ProgrammingError': 1,
+ 'downloader/request_bytes': 251,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 20, 13, 18, 43, 641951),
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 2,
+ 'scheduler/dequeued/redis': 1,
+ 'scheduler/enqueued/redis': 1,
+ 'start_time': datetime.datetime(2016, 4, 20, 13, 18, 43, 322535)}
+Wed, 20 Apr 2016 21:18:44 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:18:44 mdownloader.py[line:240] INFO nothing
+Wed, 20 Apr 2016 21:18:45 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/exception_count': 1,
+ 'downloader/exception_type_count/_mysql_exceptions.ProgrammingError': 1,
+ 'downloader/request_bytes': 251,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 20, 13, 18, 45, 189622),
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 2,
+ 'scheduler/dequeued/redis': 1,
+ 'scheduler/enqueued/redis': 1,
+ 'start_time': datetime.datetime(2016, 4, 20, 13, 18, 44, 870876)}
+Wed, 20 Apr 2016 21:18:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:18:52 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:18:53 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:19:01 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:19:03 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:19:16 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:19:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:19:27 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:19:29 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:19:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:19:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:19:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:19:52 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:19:53 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:20:01 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:20:03 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:20:16 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:20:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:20:27 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:20:29 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:20:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:20:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:20:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:20:49 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:20:49 mdownloader.py[line:240] INFO nothing
+Wed, 20 Apr 2016 21:20:49 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/exception_count': 1,
+ 'downloader/exception_type_count/_mysql_exceptions.ProgrammingError': 1,
+ 'downloader/request_bytes': 251,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 20, 13, 20, 49, 430266),
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 2,
+ 'scheduler/dequeued/redis': 1,
+ 'scheduler/enqueued/redis': 1,
+ 'start_time': datetime.datetime(2016, 4, 20, 13, 20, 49, 110817)}
+Wed, 20 Apr 2016 21:20:52 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:20:54 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:21:01 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:21:03 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:21:16 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:21:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:21:27 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:21:29 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:21:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:21:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:21:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:21:52 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:21:53 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:22:01 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:22:03 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:22:16 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:22:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:22:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:22:20 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 105, in _next_request
+    while not self._needs_backout(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 128, in _needs_backout
+    or self.downloader.needs_backout(spider) \
+exceptions.TypeError: needs_backout() takes exactly 1 argument (2 given)
+
+Wed, 20 Apr 2016 21:22:22 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:22:22 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 105, in _next_request
+    while not self._needs_backout(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 128, in _needs_backout
+    or self.downloader.needs_backout(spider) \
+exceptions.TypeError: needs_backout() takes exactly 1 argument (2 given)
+
+Wed, 20 Apr 2016 21:22:27 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:22:29 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:22:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:22:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:22:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:22:52 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:22:53 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:22:59 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:22:59 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 105, in _next_request
+    while not self._needs_backout(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 128, in _needs_backout
+    or self.downloader.needs_backout(spider) \
+exceptions.TypeError: needs_backout() takes exactly 1 argument (2 given)
+
+Wed, 20 Apr 2016 21:23:01 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:23:03 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:23:13 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:23:13 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 105, in _next_request
+    while not self._needs_backout(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 128, in _needs_backout
+    or self.downloader.needs_backout(spider) \
+exceptions.TypeError: needs_backout() takes exactly 1 argument (2 given)
+
+Wed, 20 Apr 2016 21:23:16 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:23:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:23:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:23:22 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:23:27 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:23:29 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:23:39 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:23:39 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 105, in _next_request
+    while not self._needs_backout(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 128, in _needs_backout
+    or self.downloader.needs_backout(spider) \
+exceptions.TypeError: needs_backout() takes exactly 1 argument (2 given)
+
+Wed, 20 Apr 2016 21:23:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:23:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:23:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:23:52 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:23:54 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:23:59 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:24:01 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:24:03 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:24:13 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:24:16 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:24:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:24:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:24:22 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:24:22 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:24:22 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 105, in _next_request
+    while not self._needs_backout(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 128, in _needs_backout
+    or self.downloader.needs_backout(spider) \
+exceptions.TypeError: needs_backout() takes exactly 1 argument (2 given)
+
+Wed, 20 Apr 2016 21:24:27 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:24:29 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:24:32 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:24:32 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 105, in _next_request
+    while not self._needs_backout(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 128, in _needs_backout
+    or self.downloader.needs_backout(spider) \
+exceptions.TypeError: needs_backout() takes exactly 1 argument (2 given)
+
+Wed, 20 Apr 2016 21:24:39 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:24:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:24:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:24:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:24:52 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:24:53 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:24:59 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:25:01 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:25:03 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:25:13 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:25:16 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:25:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:25:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:25:22 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:25:22 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:25:27 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:25:29 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:25:32 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:25:39 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:25:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:25:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:25:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:25:52 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:25:54 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:25:59 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:26:01 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:26:03 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:26:13 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:26:16 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:26:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:26:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:26:22 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:26:22 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:26:27 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:26:29 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:26:32 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:26:39 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:26:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:26:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:26:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:26:52 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:26:53 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:26:59 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:27:01 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:27:03 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:27:13 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:27:16 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:27:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:27:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:27:22 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:27:22 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:27:27 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:27:29 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:27:32 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:27:39 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:27:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:27:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:27:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:27:52 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:27:54 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:27:59 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:28:01 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:28:03 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:28:13 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:28:16 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:28:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:28:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:28:22 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:28:22 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:28:27 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:28:29 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:28:32 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:28:39 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:28:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:28:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:28:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:28:52 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:28:53 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:28:59 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:29:01 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:29:03 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:29:13 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:29:16 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:29:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:29:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:29:22 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:29:22 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:29:27 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:29:29 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:29:32 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:29:39 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:29:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:29:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:29:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:29:52 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:29:53 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:29:59 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:30:01 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:30:03 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:30:13 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:30:16 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:30:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:30:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:30:22 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:30:22 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:30:27 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:30:29 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:30:32 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:30:39 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:30:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:30:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:30:45 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2016, 4, 20, 13, 30, 45, 248580),
+ 'log_count/CRITICAL': 1,
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 40,
+ 'start_time': datetime.datetime(2016, 4, 20, 12, 51, 42, 476658)}
+Wed, 20 Apr 2016 21:30:47 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2016, 4, 20, 13, 30, 47, 125992),
+ 'log_count/CRITICAL': 1,
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 40,
+ 'start_time': datetime.datetime(2016, 4, 20, 12, 51, 42, 921630)}
+Wed, 20 Apr 2016 21:30:47 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:30:52 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:30:53 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:30:59 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:31:01 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:31:03 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:31:13 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:31:16 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:31:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:31:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:31:22 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:31:22 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:31:27 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:31:29 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:31:32 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:31:39 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:31:39 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2016, 4, 20, 13, 31, 39, 583870),
+ 'log_count/CRITICAL': 1,
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 40,
+ 'start_time': datetime.datetime(2016, 4, 20, 12, 51, 47, 817750)}
+Wed, 20 Apr 2016 21:31:52 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:31:54 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:31:59 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:32:01 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:32:03 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:32:13 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:32:16 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:32:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:32:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:32:21 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2016, 4, 20, 13, 32, 21, 614761),
+ 'log_count/CRITICAL': 1,
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 10,
+ 'start_time': datetime.datetime(2016, 4, 20, 13, 22, 22, 605783)}
+Wed, 20 Apr 2016 21:32:21 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2016, 4, 20, 13, 32, 21, 614928),
+ 'log_count/CRITICAL': 1,
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 9,
+ 'start_time': datetime.datetime(2016, 4, 20, 13, 23, 39, 67060)}
+Wed, 20 Apr 2016 21:32:21 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2016, 4, 20, 13, 32, 21, 619928),
+ 'log_count/CRITICAL': 1,
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 8,
+ 'start_time': datetime.datetime(2016, 4, 20, 13, 24, 22, 801244)}
+Wed, 20 Apr 2016 21:32:21 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2016, 4, 20, 13, 32, 21, 617631),
+ 'log_count/CRITICAL': 1,
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 11,
+ 'start_time': datetime.datetime(2016, 4, 20, 13, 22, 20, 618958)}
+Wed, 20 Apr 2016 21:32:21 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2016, 4, 20, 13, 32, 21, 622828),
+ 'log_count/CRITICAL': 1,
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 8,
+ 'start_time': datetime.datetime(2016, 4, 20, 13, 24, 32, 84057)}
+Wed, 20 Apr 2016 21:32:21 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2016, 4, 20, 13, 32, 21, 619202),
+ 'log_count/CRITICAL': 1,
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 10,
+ 'start_time': datetime.datetime(2016, 4, 20, 13, 22, 59, 751488)}
+Wed, 20 Apr 2016 21:35:06 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:35:07 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 105, in _next_request
+    while not self._needs_backout(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 128, in _needs_backout
+    or self.downloader.needs_backout(spider) \
+exceptions.TypeError: needs_backout() takes exactly 1 argument (2 given)
+
+Wed, 20 Apr 2016 21:35:13 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:35:13 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 105, in _next_request
+    while not self._needs_backout(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 128, in _needs_backout
+    or self.downloader.needs_backout(spider) \
+exceptions.TypeError: needs_backout() takes exactly 1 argument (2 given)
+
+Wed, 20 Apr 2016 21:36:06 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:36:13 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:36:48 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2016, 4, 20, 13, 36, 48, 251718),
+ 'log_count/CRITICAL': 1,
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 2,
+ 'start_time': datetime.datetime(2016, 4, 20, 13, 35, 13, 140510)}
+Wed, 20 Apr 2016 21:36:54 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2016, 4, 20, 13, 36, 54, 429722),
+ 'log_count/CRITICAL': 1,
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 2,
+ 'start_time': datetime.datetime(2016, 4, 20, 13, 35, 6, 998421)}
+Wed, 20 Apr 2016 21:38:00 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:38:00 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 105, in _next_request
+    while not self._needs_backout(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 128, in _needs_backout
+    or self.downloader.needs_backout(spider) \
+exceptions.TypeError: needs_backout() takes exactly 1 argument (2 given)
+
+Wed, 20 Apr 2016 21:38:06 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2016, 4, 20, 13, 38, 6, 260618),
+ 'log_count/CRITICAL': 1,
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 1,
+ 'start_time': datetime.datetime(2016, 4, 20, 13, 38, 0, 895067)}
+Wed, 20 Apr 2016 21:38:49 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:38:49 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 105, in _next_request
+    while not self._needs_backout(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 128, in _needs_backout
+    or self.downloader.needs_backout(spider) \
+exceptions.TypeError: needs_backout() takes exactly 1 argument (2 given)
+
+Wed, 20 Apr 2016 21:38:54 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2016, 4, 20, 13, 38, 54, 581484),
+ 'log_count/CRITICAL': 1,
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 1,
+ 'start_time': datetime.datetime(2016, 4, 20, 13, 38, 49, 168560)}
+Wed, 20 Apr 2016 21:40:04 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:40:04 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 105, in _next_request
+    while not self._needs_backout(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 128, in _needs_backout
+    or self.downloader.needs_backout(spider) \
+exceptions.TypeError: needs_backout() takes exactly 1 argument (2 given)
+
+Wed, 20 Apr 2016 21:41:04 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:41:12 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2016, 4, 20, 13, 41, 12, 1412),
+ 'log_count/CRITICAL': 1,
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 2,
+ 'start_time': datetime.datetime(2016, 4, 20, 13, 40, 4, 605275)}
+Wed, 20 Apr 2016 21:48:44 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:48:44 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 105, in _next_request
+    while not self._needs_backout(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 128, in _needs_backout
+    or self.downloader.needs_backout(spider) \
+exceptions.TypeError: needs_backout() takes exactly 1 argument (2 given)
+
+Wed, 20 Apr 2016 21:48:48 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2016, 4, 20, 13, 48, 48, 451309),
+ 'log_count/CRITICAL': 1,
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 1,
+ 'start_time': datetime.datetime(2016, 4, 20, 13, 48, 44, 138004)}
+Wed, 20 Apr 2016 21:53:22 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:53:22 mdownloader.py[line:240] INFO nothing
+Wed, 20 Apr 2016 21:53:22 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/exception_count': 1,
+ 'downloader/exception_type_count/_mysql_exceptions.ProgrammingError': 1,
+ 'downloader/request_bytes': 251,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 20, 13, 53, 22, 728332),
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 2,
+ 'scheduler/dequeued/redis': 1,
+ 'scheduler/enqueued/redis': 1,
+ 'start_time': datetime.datetime(2016, 4, 20, 13, 53, 22, 408027)}
+Wed, 20 Apr 2016 21:53:29 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:53:29 mdownloader.py[line:240] INFO nothing
+Wed, 20 Apr 2016 21:53:29 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/exception_count': 1,
+ 'downloader/exception_type_count/_mysql_exceptions.ProgrammingError': 1,
+ 'downloader/request_bytes': 251,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 20, 13, 53, 29, 329163),
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 2,
+ 'scheduler/dequeued/redis': 1,
+ 'scheduler/enqueued/redis': 1,
+ 'start_time': datetime.datetime(2016, 4, 20, 13, 53, 29, 8737)}
+Wed, 20 Apr 2016 21:56:00 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:56:00 mdownloader.py[line:240] INFO nothing
+Wed, 20 Apr 2016 21:56:01 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/exception_count': 1,
+ 'downloader/exception_type_count/_mysql_exceptions.ProgrammingError': 1,
+ 'downloader/request_bytes': 251,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 20, 13, 56, 1, 294452),
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 2,
+ 'scheduler/dequeued/redis': 1,
+ 'scheduler/enqueued/redis': 1,
+ 'start_time': datetime.datetime(2016, 4, 20, 13, 56, 0, 975985)}
+Wed, 20 Apr 2016 21:56:04 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:56:04 mdownloader.py[line:240] INFO nothing
+Wed, 20 Apr 2016 21:56:05 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/exception_count': 1,
+ 'downloader/exception_type_count/_mysql_exceptions.ProgrammingError': 1,
+ 'downloader/request_bytes': 251,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 20, 13, 56, 5, 241816),
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 2,
+ 'scheduler/dequeued/redis': 1,
+ 'scheduler/enqueued/redis': 1,
+ 'start_time': datetime.datetime(2016, 4, 20, 13, 56, 4, 924141)}
+Wed, 20 Apr 2016 21:57:48 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 21:57:48 mdownloader.py[line:240] INFO nothing
+Wed, 20 Apr 2016 21:57:48 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/exception_count': 1,
+ 'downloader/exception_type_count/_mysql_exceptions.ProgrammingError': 1,
+ 'downloader/request_bytes': 251,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 20, 13, 57, 48, 908440),
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 2,
+ 'scheduler/dequeued/redis': 1,
+ 'scheduler/enqueued/redis': 1,
+ 'start_time': datetime.datetime(2016, 4, 20, 13, 57, 48, 589442)}
+Wed, 20 Apr 2016 22:02:23 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 22:02:23 mdownloader.py[line:240] INFO nothing
+Wed, 20 Apr 2016 22:02:23 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/exception_count': 1,
+ 'downloader/exception_type_count/_mysql_exceptions.ProgrammingError': 1,
+ 'downloader/request_bytes': 251,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 20, 14, 2, 23, 795464),
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 2,
+ 'scheduler/dequeued/redis': 1,
+ 'scheduler/enqueued/redis': 1,
+ 'start_time': datetime.datetime(2016, 4, 20, 14, 2, 23, 475927)}
+Wed, 20 Apr 2016 22:03:22 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 22:03:22 mdownloader.py[line:240] INFO nothing
+Wed, 20 Apr 2016 22:03:22 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/exception_count': 1,
+ 'downloader/exception_type_count/_mysql_exceptions.ProgrammingError': 1,
+ 'downloader/request_bytes': 251,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 20, 14, 3, 22, 595499),
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 2,
+ 'scheduler/dequeued/redis': 1,
+ 'scheduler/enqueued/redis': 1,
+ 'start_time': datetime.datetime(2016, 4, 20, 14, 3, 22, 276961)}
+Wed, 20 Apr 2016 22:10:28 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 22:10:28 mdownloader.py[line:240] INFO nothing
+Wed, 20 Apr 2016 22:10:29 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/exception_count': 1,
+ 'downloader/exception_type_count/_mysql_exceptions.ProgrammingError': 1,
+ 'downloader/request_bytes': 251,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 20, 14, 10, 29, 210122),
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 2,
+ 'scheduler/dequeued/redis': 1,
+ 'scheduler/enqueued/redis': 1,
+ 'start_time': datetime.datetime(2016, 4, 20, 14, 10, 28, 891066)}
+Wed, 20 Apr 2016 22:15:53 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 22:21:06 __init__.py[line:145] WARNING /home/zhangrui/下载/pycharm-community-5.0.1/helpers/pydev/pydevd_resolver.py:191: ScrapyDeprecationWarning: `Settings.defaults` attribute is deprecated and won't be supported in Scrapy 0.26, use `Settings.set(name, value, priority='default')` instead
+  attr = getattr(var, n)
+
+Wed, 20 Apr 2016 22:21:06 __init__.py[line:133] WARNING /home/zhangrui/下载/pycharm-community-5.0.1/helpers/pydev/pydevd_resolver.py:191: ScrapyDeprecationWarning: `Settings.overrides` attribute is deprecated and won't be supported in Scrapy 0.26, use `Settings.set(name, value, priority='cmdline')` instead
+  attr = getattr(var, n)
+
+Wed, 20 Apr 2016 22:23:01 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 22:23:10 mdownloader.py[line:240] INFO nothing
+Wed, 20 Apr 2016 22:27:30 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 20 Apr 2016 22:27:39 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/exception_count': 1,
+ 'downloader/exception_type_count/_mysql_exceptions.ProgrammingError': 1,
+ 'downloader/request_bytes': 251,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 20, 14, 27, 39, 735124),
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 4,
+ 'log_count/WARNING': 2,
+ 'scheduler/dequeued/redis': 1,
+ 'scheduler/enqueued/redis': 1,
+ 'start_time': datetime.datetime(2016, 4, 20, 14, 15, 53, 400159)}

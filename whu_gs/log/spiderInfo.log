@@ -1,0 +1,91 @@
+Tue, 10 May 2016 14:24:30 _legacy.py[line:154] CRITICAL Unhandled error in Deferred:
+Tue, 10 May 2016 14:24:30 _legacy.py[line:154] CRITICAL 
+Tue, 10 May 2016 14:28:00 _legacy.py[line:154] CRITICAL Unhandled error in Deferred:
+Tue, 10 May 2016 14:28:00 _legacy.py[line:154] CRITICAL 
+Tue, 10 May 2016 14:29:46 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Tue, 10 May 2016 14:29:46 mdownloader.py[line:240] INFO nothing
+Tue, 10 May 2016 14:29:56 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/request_bytes': 2524,
+ 'downloader/request_count': 8,
+ 'downloader/request_method_count/GET': 8,
+ 'downloader/response_bytes': 193299,
+ 'downloader/response_count': 8,
+ 'downloader/response_status_count/200': 8,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 5, 10, 6, 29, 56, 844338),
+ 'log_count/DEBUG': 11,
+ 'log_count/INFO': 2,
+ 'request_depth_max': 1,
+ 'response_received_count': 8,
+ 'scheduler/dequeued/redis': 8,
+ 'scheduler/enqueued/redis': 8,
+ 'spider_exceptions/AttributeError': 1,
+ 'spider_exceptions/IndexError': 1,
+ 'start_time': datetime.datetime(2016, 5, 10, 6, 29, 46, 402787)}
+Tue, 10 May 2016 14:31:52 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Tue, 10 May 2016 14:31:52 mdownloader.py[line:240] INFO nothing
+Tue, 10 May 2016 14:32:16 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/request_bytes': 22117,
+ 'downloader/request_count': 63,
+ 'downloader/request_method_count/GET': 63,
+ 'downloader/response_bytes': 1456085,
+ 'downloader/response_count': 63,
+ 'downloader/response_status_count/200': 63,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 5, 10, 6, 32, 16, 764139),
+ 'log_count/DEBUG': 66,
+ 'log_count/INFO': 2,
+ 'request_depth_max': 3,
+ 'response_received_count': 63,
+ 'scheduler/dequeued/redis': 63,
+ 'scheduler/enqueued/redis': 63,
+ 'spider_exceptions/AttributeError': 1,
+ 'spider_exceptions/IndexError': 5,
+ 'start_time': datetime.datetime(2016, 5, 10, 6, 31, 52, 896947)}
+Tue, 10 May 2016 15:03:24 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Tue, 10 May 2016 15:03:24 mdownloader.py[line:240] INFO nothing
+Tue, 10 May 2016 15:04:24 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Tue, 10 May 2016 15:05:24 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Tue, 10 May 2016 15:06:24 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Tue, 10 May 2016 15:07:24 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Tue, 10 May 2016 15:07:50 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/exception_count': 3,
+ 'downloader/exception_type_count/twisted.internet.error.DNSLookupError': 1,
+ 'downloader/exception_type_count/twisted.web._newclient.ResponseNeverReceived': 2,
+ 'downloader/request_bytes': 753,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 5, 10, 7, 7, 50, 322084),
+ 'log_count/DEBUG': 6,
+ 'log_count/INFO': 6,
+ 'scheduler/dequeued/redis': 3,
+ 'scheduler/enqueued/redis': 3,
+ 'start_time': datetime.datetime(2016, 5, 10, 7, 3, 24, 651434)}
+Tue, 10 May 2016 15:28:10 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Tue, 10 May 2016 15:28:10 mdownloader.py[line:240] INFO nothing
+Tue, 10 May 2016 15:29:10 logstats.py[line:47] INFO Crawled 23 pages (at 23 pages/min), scraped 0 items (at 0 items/min)
+Tue, 10 May 2016 15:30:10 logstats.py[line:47] INFO Crawled 62 pages (at 39 pages/min), scraped 0 items (at 0 items/min)
+Tue, 10 May 2016 15:31:10 logstats.py[line:47] INFO Crawled 62 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Tue, 10 May 2016 15:32:05 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/exception_count': 3,
+ 'downloader/exception_type_count/twisted.internet.error.DNSLookupError': 1,
+ 'downloader/exception_type_count/twisted.internet.error.TimeoutError': 1,
+ 'downloader/exception_type_count/twisted.web._newclient.ResponseNeverReceived': 1,
+ 'downloader/request_bytes': 23206,
+ 'downloader/request_count': 66,
+ 'downloader/request_method_count/GET': 66,
+ 'downloader/response_bytes': 1456027,
+ 'downloader/response_count': 63,
+ 'downloader/response_status_count/200': 63,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 5, 10, 7, 32, 5, 449543),
+ 'log_count/DEBUG': 69,
+ 'log_count/INFO': 5,
+ 'request_depth_max': 3,
+ 'response_received_count': 63,
+ 'scheduler/dequeued/redis': 66,
+ 'scheduler/enqueued/redis': 66,
+ 'spider_exceptions/AttributeError': 1,
+ 'spider_exceptions/IndexError': 5,
+ 'start_time': datetime.datetime(2016, 5, 10, 7, 28, 10, 652317)}

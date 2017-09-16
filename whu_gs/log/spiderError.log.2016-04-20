@@ -1,0 +1,594 @@
+Wed, 20 Apr 2016 20:43:25 _legacy.py[line:154] CRITICAL Unhandled error in Deferred:
+Wed, 20 Apr 2016 20:43:25 _legacy.py[line:154] CRITICAL 
+Wed, 20 Apr 2016 20:48:36 _legacy.py[line:154] CRITICAL Unhandled error in Deferred:
+Wed, 20 Apr 2016 20:48:36 _legacy.py[line:154] CRITICAL 
+Wed, 20 Apr 2016 20:51:42 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 105, in _next_request
+    while not self._needs_backout(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 128, in _needs_backout
+    or self.downloader.needs_backout(spider) \
+exceptions.TypeError: needs_backout() takes exactly 1 argument (2 given)
+
+Wed, 20 Apr 2016 20:51:42 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 105, in _next_request
+    while not self._needs_backout(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 128, in _needs_backout
+    or self.downloader.needs_backout(spider) \
+exceptions.TypeError: needs_backout() takes exactly 1 argument (2 given)
+
+Wed, 20 Apr 2016 20:51:47 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 105, in _next_request
+    while not self._needs_backout(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 128, in _needs_backout
+    or self.downloader.needs_backout(spider) \
+exceptions.TypeError: needs_backout() takes exactly 1 argument (2 given)
+
+Wed, 20 Apr 2016 20:53:54 _legacy.py[line:154] CRITICAL Unhandled error in Deferred:
+Wed, 20 Apr 2016 20:53:54 _legacy.py[line:154] CRITICAL 
+Wed, 20 Apr 2016 20:53:58 _legacy.py[line:154] CRITICAL Unhandled error in Deferred:
+Wed, 20 Apr 2016 20:53:58 _legacy.py[line:154] CRITICAL 
+Wed, 20 Apr 2016 20:56:20 _legacy.py[line:154] CRITICAL Unhandled error in Deferred:
+Wed, 20 Apr 2016 20:56:20 _legacy.py[line:154] CRITICAL 
+Wed, 20 Apr 2016 21:10:52 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 106, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 136, in _next_request_from_scheduler
+    d = self._download(request, spider)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 224, in _download
+    dwld = self.downloader.fetch(request, spider)
+  File "/home/zhangrui/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 267, in fetch
+    self.actives.print_use()
+  File "/home/zhangrui/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 136, in print_use
+    logfile().log("spider " + k + " has " + str(len(v)) + " active request")
+  File "/home/zhangrui/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 42, in log
+    t_file = codecs.open(file_name, 'a', encoding='utf-8')
+  File "/usr/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+exceptions.IOError: [Errno 2] No such file or directory: '/home/zhangrui/whu_gs/log/request_log/log-2016-04-20.txt'
+
+Wed, 20 Apr 2016 21:10:53 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 106, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 136, in _next_request_from_scheduler
+    d = self._download(request, spider)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 224, in _download
+    dwld = self.downloader.fetch(request, spider)
+  File "/home/zhangrui/未命名文件夹/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 267, in fetch
+    self.actives.print_use()
+  File "/home/zhangrui/未命名文件夹/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 136, in print_use
+    logfile().log("spider " + k + " has " + str(len(v)) + " active request")
+  File "/home/zhangrui/未命名文件夹/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 42, in log
+    t_file = codecs.open(file_name, 'a', encoding='utf-8')
+  File "/usr/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+exceptions.IOError: [Errno 2] No such file or directory: '/home/zhangrui/\xe6\x9c\xaa\xe5\x91\xbd\xe5\x90\x8d\xe6\x96\x87\xe4\xbb\xb6\xe5\xa4\xb9/whu_gs/log/request_log/log-2016-04-20.txt'
+
+Wed, 20 Apr 2016 21:12:16 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 106, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 136, in _next_request_from_scheduler
+    d = self._download(request, spider)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 224, in _download
+    dwld = self.downloader.fetch(request, spider)
+  File "/home/zhangrui/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 267, in fetch
+    self.actives.print_use()
+  File "/home/zhangrui/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 136, in print_use
+    logfile().log("spider " + k + " has " + str(len(v)) + " active request")
+  File "/home/zhangrui/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 42, in log
+    t_file = codecs.open(file_name, 'a', encoding='utf-8')
+  File "/usr/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+exceptions.IOError: [Errno 2] No such file or directory: '/home/zhangrui/whu_gs/log/request_log/log-2016-04-20.txt'
+
+Wed, 20 Apr 2016 21:12:20 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 106, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 136, in _next_request_from_scheduler
+    d = self._download(request, spider)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 224, in _download
+    dwld = self.downloader.fetch(request, spider)
+  File "/home/zhangrui/未命名文件夹/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 267, in fetch
+    self.actives.print_use()
+  File "/home/zhangrui/未命名文件夹/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 136, in print_use
+    logfile().log("spider " + k + " has " + str(len(v)) + " active request")
+  File "/home/zhangrui/未命名文件夹/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 42, in log
+    t_file = codecs.open(file_name, 'a', encoding='utf-8')
+  File "/usr/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+exceptions.IOError: [Errno 2] No such file or directory: '/home/zhangrui/\xe6\x9c\xaa\xe5\x91\xbd\xe5\x90\x8d\xe6\x96\x87\xe4\xbb\xb6\xe5\xa4\xb9/whu_gs/log/request_log/log-2016-04-20.txt'
+
+Wed, 20 Apr 2016 21:14:01 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 106, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 136, in _next_request_from_scheduler
+    d = self._download(request, spider)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 224, in _download
+    dwld = self.downloader.fetch(request, spider)
+  File "/home/zhangrui/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 267, in fetch
+    self.actives.print_use()
+  File "/home/zhangrui/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 136, in print_use
+    logfile().log("spider " + k + " has " + str(len(v)) + " active request")
+  File "/home/zhangrui/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 42, in log
+    t_file = codecs.open(file_name, 'a', encoding='utf-8')
+  File "/usr/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+exceptions.IOError: [Errno 2] No such file or directory: '/home/zhangrui/whu_gs/log/request_log/log-2016-04-20.txt'
+
+Wed, 20 Apr 2016 21:14:03 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 106, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 136, in _next_request_from_scheduler
+    d = self._download(request, spider)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 224, in _download
+    dwld = self.downloader.fetch(request, spider)
+  File "/home/zhangrui/未命名文件夹/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 267, in fetch
+    self.actives.print_use()
+  File "/home/zhangrui/未命名文件夹/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 136, in print_use
+    logfile().log("spider " + k + " has " + str(len(v)) + " active request")
+  File "/home/zhangrui/未命名文件夹/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 42, in log
+    t_file = codecs.open(file_name, 'a', encoding='utf-8')
+  File "/usr/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+exceptions.IOError: [Errno 2] No such file or directory: '/home/zhangrui/\xe6\x9c\xaa\xe5\x91\xbd\xe5\x90\x8d\xe6\x96\x87\xe4\xbb\xb6\xe5\xa4\xb9/whu_gs/log/request_log/log-2016-04-20.txt'
+
+Wed, 20 Apr 2016 21:14:27 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 106, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 136, in _next_request_from_scheduler
+    d = self._download(request, spider)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 224, in _download
+    dwld = self.downloader.fetch(request, spider)
+  File "/home/zhangrui/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 267, in fetch
+    self.actives.print_use()
+  File "/home/zhangrui/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 136, in print_use
+    logfile().log("spider " + k + " has " + str(len(v)) + " active request")
+  File "/home/zhangrui/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 42, in log
+    t_file = codecs.open(file_name, 'a', encoding='utf-8')
+  File "/usr/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+exceptions.IOError: [Errno 2] No such file or directory: '/home/zhangrui/whu_gs/log/request_log/log-2016-04-20.txt'
+
+Wed, 20 Apr 2016 21:14:29 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 106, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 136, in _next_request_from_scheduler
+    d = self._download(request, spider)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 224, in _download
+    dwld = self.downloader.fetch(request, spider)
+  File "/home/zhangrui/未命名文件夹/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 267, in fetch
+    self.actives.print_use()
+  File "/home/zhangrui/未命名文件夹/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 136, in print_use
+    logfile().log("spider " + k + " has " + str(len(v)) + " active request")
+  File "/home/zhangrui/未命名文件夹/whu_gs/whu_gs/smart_allocate/mdownloader.py", line 42, in log
+    t_file = codecs.open(file_name, 'a', encoding='utf-8')
+  File "/usr/lib/python2.7/codecs.py", line 884, in open
+    file = __builtin__.open(filename, mode, buffering)
+exceptions.IOError: [Errno 2] No such file or directory: '/home/zhangrui/\xe6\x9c\xaa\xe5\x91\xbd\xe5\x90\x8d\xe6\x96\x87\xe4\xbb\xb6\xe5\xa4\xb9/whu_gs/log/request_log/log-2016-04-20.txt'
+
+Wed, 20 Apr 2016 21:22:20 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 105, in _next_request
+    while not self._needs_backout(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 128, in _needs_backout
+    or self.downloader.needs_backout(spider) \
+exceptions.TypeError: needs_backout() takes exactly 1 argument (2 given)
+
+Wed, 20 Apr 2016 21:22:22 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 105, in _next_request
+    while not self._needs_backout(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 128, in _needs_backout
+    or self.downloader.needs_backout(spider) \
+exceptions.TypeError: needs_backout() takes exactly 1 argument (2 given)
+
+Wed, 20 Apr 2016 21:22:59 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 105, in _next_request
+    while not self._needs_backout(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 128, in _needs_backout
+    or self.downloader.needs_backout(spider) \
+exceptions.TypeError: needs_backout() takes exactly 1 argument (2 given)
+
+Wed, 20 Apr 2016 21:23:13 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 105, in _next_request
+    while not self._needs_backout(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 128, in _needs_backout
+    or self.downloader.needs_backout(spider) \
+exceptions.TypeError: needs_backout() takes exactly 1 argument (2 given)
+
+Wed, 20 Apr 2016 21:23:39 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 105, in _next_request
+    while not self._needs_backout(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 128, in _needs_backout
+    or self.downloader.needs_backout(spider) \
+exceptions.TypeError: needs_backout() takes exactly 1 argument (2 given)
+
+Wed, 20 Apr 2016 21:24:22 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 105, in _next_request
+    while not self._needs_backout(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 128, in _needs_backout
+    or self.downloader.needs_backout(spider) \
+exceptions.TypeError: needs_backout() takes exactly 1 argument (2 given)
+
+Wed, 20 Apr 2016 21:24:32 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 105, in _next_request
+    while not self._needs_backout(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 128, in _needs_backout
+    or self.downloader.needs_backout(spider) \
+exceptions.TypeError: needs_backout() takes exactly 1 argument (2 given)
+
+Wed, 20 Apr 2016 21:35:07 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 105, in _next_request
+    while not self._needs_backout(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 128, in _needs_backout
+    or self.downloader.needs_backout(spider) \
+exceptions.TypeError: needs_backout() takes exactly 1 argument (2 given)
+
+Wed, 20 Apr 2016 21:35:13 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 105, in _next_request
+    while not self._needs_backout(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 128, in _needs_backout
+    or self.downloader.needs_backout(spider) \
+exceptions.TypeError: needs_backout() takes exactly 1 argument (2 given)
+
+Wed, 20 Apr 2016 21:38:00 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 105, in _next_request
+    while not self._needs_backout(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 128, in _needs_backout
+    or self.downloader.needs_backout(spider) \
+exceptions.TypeError: needs_backout() takes exactly 1 argument (2 given)
+
+Wed, 20 Apr 2016 21:38:49 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 105, in _next_request
+    while not self._needs_backout(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 128, in _needs_backout
+    or self.downloader.needs_backout(spider) \
+exceptions.TypeError: needs_backout() takes exactly 1 argument (2 given)
+
+Wed, 20 Apr 2016 21:40:04 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 105, in _next_request
+    while not self._needs_backout(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 128, in _needs_backout
+    or self.downloader.needs_backout(spider) \
+exceptions.TypeError: needs_backout() takes exactly 1 argument (2 given)
+
+Wed, 20 Apr 2016 21:48:44 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/crawler.py", line 253, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 105, in _next_request
+    while not self._needs_backout(spider):
+  File "/usr/local/lib/python2.7/dist-packages/Scrapy-1.0.1-py2.7.egg/scrapy/core/engine.py", line 128, in _needs_backout
+    or self.downloader.needs_backout(spider) \
+exceptions.TypeError: needs_backout() takes exactly 1 argument (2 given)
+

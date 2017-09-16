@@ -1,0 +1,23 @@
+2016-04-14 13:49:44.977392 whu_gs_spider spider start!
+2016-04-14 16:03:23.345578 whu_gs_spider spider start!
+2016-04-14 16:05:41.944149 whu_gs_spider spider start!
+2016-04-14 16:10:07.850724 huanqiu_domesticnews_item spider start!
+2016-04-14 16:10:11.968775 Totally crawled 47 items huanqiu_domesticnews_item spider has finished start!
+
+2016-04-14 16:12:25.102896 huanqiu_domesticnews_item spider start!
+2016-04-14 16:12:27.823217 Totally crawled 48 items huanqiu_domesticnews_item spider has finished start!
+
+2016-04-14 16:12:35.392262 huanqiu_domesticnews_item spider start!
+2016-04-14 16:12:35.514373 Totally crawled 2 items huanqiu_domesticnews_item spider has finished start!
+
+2016-04-14 16:13:37.907231 huanqiu_domesticnews_item spider start!
+2016-04-14 16:15:29.536525 whu_gs_spider spider start!
+2016-04-14 16:26:35.444282 whu_gs_spider spider start!
+2016-04-14 16:27:55.728667 whu_gs_spider spider start!
+2016-04-14 16:27:55.768108 Totally crawled 2 items whu_gs_spider spider has finished start!
+
+2016-04-14 17:24:53.564516 whu_gs_spider spider start!
+2016-04-14 18:08:54.319388 huanqiu_domesticnews_item spider start!
+2016-04-14 18:09:16.407121 huanqiu_domesticnews_item spider start!
+2016-04-14 18:09:16.546168 Totally crawled 2 items huanqiu_domesticnews_item spider has finished start!
+

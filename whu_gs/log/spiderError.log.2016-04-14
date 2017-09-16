@@ -1,0 +1,65 @@
+Wed, 13 Apr 2016 16:36:51 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 251, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/lib/python2.7/dist-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/lib/python2.7/dist-packages/scrapy/core/engine.py", line 105, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/usr/lib/python2.7/dist-packages/scrapy/core/engine.py", line 132, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "build/bdist.linux-x86_64/egg/scrapy_redis/scheduler.py", line 82, in next_request
+    
+  File "build/bdist.linux-x86_64/egg/scrapy_redis/queue.py", line 92, in pop
+    
+  File "/usr/local/lib/python2.7/dist-packages/rediscluster/pipeline.py", line 435, in multi
+    raise RedisClusterException("method multi() is not implemented")
+rediscluster.exceptions.RedisClusterException: method multi() is not implemented
+
+Wed, 13 Apr 2016 16:39:20 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 251, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/lib/python2.7/dist-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/lib/python2.7/dist-packages/scrapy/core/engine.py", line 105, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/usr/lib/python2.7/dist-packages/scrapy/core/engine.py", line 132, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/zhangrui/whu_gs/whu_gs/scrapy_redis/scheduler.py", line 82, in next_request
+    request = self.queue.pop(block_pop_timeout)
+  File "/home/zhangrui/whu_gs/whu_gs/scrapy_redis/queue.py", line 92, in pop
+    pipe.multi()
+  File "/usr/local/lib/python2.7/dist-packages/rediscluster/pipeline.py", line 435, in multi
+    raise RedisClusterException("method multi() is not implemented")
+rediscluster.exceptions.RedisClusterException: method multi() is not implemented
+
+Thu, 14 Apr 2016 16:03:26 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1460621006_0_10002' for key 'PRIMARY'")
+Thu, 14 Apr 2016 16:03:26 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1460621006_0_10003' for key 'PRIMARY'")
+Thu, 14 Apr 2016 16:03:26 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1460621006_0_10004' for key 'PRIMARY'")
+Thu, 14 Apr 2016 16:03:26 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1460621006_0_10005' for key 'PRIMARY'")
+Thu, 14 Apr 2016 16:03:27 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1460621007_0_10006' for key 'PRIMARY'")
+Thu, 14 Apr 2016 16:03:27 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1460621007_0_10007' for key 'PRIMARY'")
+Thu, 14 Apr 2016 16:03:34 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1460621014_0_10025' for key 'PRIMARY'")
+Thu, 14 Apr 2016 16:12:26 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1460621546_0_10012' for key 'PRIMARY'")
+Thu, 14 Apr 2016 16:12:26 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1460621546_0_10013' for key 'PRIMARY'")
+Thu, 14 Apr 2016 16:15:32 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1460621732_0_10002' for key 'PRIMARY'")
+Thu, 14 Apr 2016 18:08:57 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1460628537_0_10021' for key 'PRIMARY'")

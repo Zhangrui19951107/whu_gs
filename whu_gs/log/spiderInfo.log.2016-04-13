@@ -1,0 +1,225 @@
+Wed, 13 Apr 2016 16:36:51 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:36:51 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 251, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/lib/python2.7/dist-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/lib/python2.7/dist-packages/scrapy/core/engine.py", line 105, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/usr/lib/python2.7/dist-packages/scrapy/core/engine.py", line 132, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "build/bdist.linux-x86_64/egg/scrapy_redis/scheduler.py", line 82, in next_request
+    
+  File "build/bdist.linux-x86_64/egg/scrapy_redis/queue.py", line 92, in pop
+    
+  File "/usr/local/lib/python2.7/dist-packages/rediscluster/pipeline.py", line 435, in multi
+    raise RedisClusterException("method multi() is not implemented")
+rediscluster.exceptions.RedisClusterException: method multi() is not implemented
+
+Wed, 13 Apr 2016 16:37:51 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:38:51 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:39:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:39:20 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/usr/lib/python2.7/dist-packages/scrapy/crawler.py", line 251, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/usr/lib/python2.7/dist-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/usr/lib/python2.7/dist-packages/scrapy/core/engine.py", line 105, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/usr/lib/python2.7/dist-packages/scrapy/core/engine.py", line 132, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/zhangrui/whu_gs/whu_gs/scrapy_redis/scheduler.py", line 82, in next_request
+    request = self.queue.pop(block_pop_timeout)
+  File "/home/zhangrui/whu_gs/whu_gs/scrapy_redis/queue.py", line 92, in pop
+    pipe.multi()
+  File "/usr/local/lib/python2.7/dist-packages/rediscluster/pipeline.py", line 435, in multi
+    raise RedisClusterException("method multi() is not implemented")
+rediscluster.exceptions.RedisClusterException: method multi() is not implemented
+
+Wed, 13 Apr 2016 16:39:51 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:40:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:40:46 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:40:51 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:40:53 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/request_bytes': 8590,
+ 'downloader/request_count': 26,
+ 'downloader/request_method_count/GET': 26,
+ 'downloader/response_bytes': 659727,
+ 'downloader/response_count': 26,
+ 'downloader/response_status_count/200': 26,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 13, 8, 40, 53, 870144),
+ 'log_count/DEBUG': 27,
+ 'log_count/INFO': 1,
+ 'request_depth_max': 1,
+ 'response_received_count': 26,
+ 'scheduler/dequeued/redis': 26,
+ 'scheduler/enqueued/redis': 26,
+ 'spider_exceptions/IndexError': 2,
+ 'start_time': datetime.datetime(2016, 4, 13, 8, 40, 46, 308375)}
+Wed, 13 Apr 2016 16:41:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:41:51 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:42:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:42:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:42:42 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/request_bytes': 251,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 17243,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 13, 8, 42, 42, 461545),
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 1,
+ 'request_depth_max': 1,
+ 'response_received_count': 1,
+ 'scheduler/dequeued/redis': 1,
+ 'scheduler/enqueued/redis': 1,
+ 'start_time': datetime.datetime(2016, 4, 13, 8, 42, 42, 343)}
+Wed, 13 Apr 2016 16:42:51 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:43:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:43:31 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:43:38 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/request_bytes': 8959,
+ 'downloader/request_count': 27,
+ 'downloader/request_method_count/GET': 27,
+ 'downloader/response_bytes': 577682,
+ 'downloader/response_count': 27,
+ 'downloader/response_status_count/200': 27,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 13, 8, 43, 38, 408983),
+ 'log_count/DEBUG': 28,
+ 'log_count/INFO': 1,
+ 'request_depth_max': 2,
+ 'response_received_count': 27,
+ 'scheduler/dequeued/redis': 27,
+ 'scheduler/enqueued/redis': 27,
+ 'spider_exceptions/IndexError': 3,
+ 'start_time': datetime.datetime(2016, 4, 13, 8, 43, 31, 169585)}
+Wed, 13 Apr 2016 16:43:51 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:44:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:44:51 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:45:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:45:29 __init__.py[line:145] WARNING /home/zhangrui/下载/pycharm-community-5.0.1/helpers/pydev/pydevd_resolver.py:191: ScrapyDeprecationWarning: `Settings.defaults` attribute is deprecated and won't be supported in Scrapy 0.26, use `Settings.set(name, value, priority='default')` instead
+  attr = getattr(var, n)
+
+Wed, 13 Apr 2016 16:45:29 __init__.py[line:133] WARNING /home/zhangrui/下载/pycharm-community-5.0.1/helpers/pydev/pydevd_resolver.py:191: ScrapyDeprecationWarning: `Settings.overrides` attribute is deprecated and won't be supported in Scrapy 0.26, use `Settings.set(name, value, priority='cmdline')` instead
+  attr = getattr(var, n)
+
+Wed, 13 Apr 2016 16:45:51 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:46:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:46:28 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:46:51 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:47:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:47:51 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:48:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:48:45 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:48:45 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/request_bytes': 251,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 17243,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 13, 8, 48, 45, 681467),
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 1,
+ 'request_depth_max': 1,
+ 'response_received_count': 1,
+ 'scheduler/dequeued/redis': 1,
+ 'scheduler/enqueued/redis': 1,
+ 'start_time': datetime.datetime(2016, 4, 13, 8, 48, 45, 271568)}
+Wed, 13 Apr 2016 16:48:51 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:49:15 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:49:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:49:51 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:49:57 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:49:57 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/request_bytes': 251,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 17243,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 13, 8, 49, 57, 507739),
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 1,
+ 'request_depth_max': 1,
+ 'response_received_count': 1,
+ 'scheduler/dequeued/redis': 1,
+ 'scheduler/enqueued/redis': 1,
+ 'start_time': datetime.datetime(2016, 4, 13, 8, 49, 57, 72002)}
+Wed, 13 Apr 2016 16:50:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:50:51 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:51:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:51:51 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:52:09 __init__.py[line:145] WARNING /home/zhangrui/下载/pycharm-community-5.0.1/helpers/pydev/pydevd_resolver.py:191: ScrapyDeprecationWarning: `Settings.defaults` attribute is deprecated and won't be supported in Scrapy 0.26, use `Settings.set(name, value, priority='default')` instead
+  attr = getattr(var, n)
+
+Wed, 13 Apr 2016 16:52:09 __init__.py[line:133] WARNING /home/zhangrui/下载/pycharm-community-5.0.1/helpers/pydev/pydevd_resolver.py:191: ScrapyDeprecationWarning: `Settings.overrides` attribute is deprecated and won't be supported in Scrapy 0.26, use `Settings.set(name, value, priority='cmdline')` instead
+  attr = getattr(var, n)
+
+Wed, 13 Apr 2016 16:52:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:52:51 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:53:15 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:53:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:53:51 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:54:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:54:22 logstats.py[line:47] INFO Crawled 1 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:54:51 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:55:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 16:55:32 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2016, 4, 13, 8, 55, 32, 885311),
+ 'log_count/CRITICAL': 1,
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 19,
+ 'start_time': datetime.datetime(2016, 4, 13, 8, 36, 51, 496175)}
+Wed, 13 Apr 2016 16:55:33 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2016, 4, 13, 8, 55, 33, 636102),
+ 'log_count/CRITICAL': 1,
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 17,
+ 'start_time': datetime.datetime(2016, 4, 13, 8, 39, 20, 873527)}
+Wed, 13 Apr 2016 17:04:07 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Wed, 13 Apr 2016 17:04:22 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/request_bytes': 18072,
+ 'downloader/request_count': 52,
+ 'downloader/request_method_count/GET': 52,
+ 'downloader/response_bytes': 1219238,
+ 'downloader/response_count': 52,
+ 'downloader/response_status_count/200': 52,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 13, 9, 4, 22, 955677),
+ 'log_count/DEBUG': 53,
+ 'log_count/INFO': 1,
+ 'request_depth_max': 2,
+ 'response_received_count': 52,
+ 'scheduler/dequeued/redis': 52,
+ 'scheduler/enqueued/redis': 52,
+ 'spider_exceptions/IndexError': 5,
+ 'start_time': datetime.datetime(2016, 4, 13, 9, 4, 7, 197712)}

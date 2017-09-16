@@ -1,0 +1,23 @@
+2016-04-13 16:40:46.673822 whu_gs_spider spider start!
+2016-04-13 16:40:46.742910 Totally crawled 5 items whu_gs_spider spider has finished start!
+
+2016-04-13 16:42:42.413397 whu_gs_spider spider start!
+2016-04-13 16:42:42.459514 Totally crawled 1 items whu_gs_spider spider has finished start!
+
+2016-04-13 16:43:31.583615 whu_gs_spider spider start!
+2016-04-13 16:43:32.037271 Totally crawled 16 items whu_gs_spider spider has finished start!
+
+2016-04-13 16:46:40.117974 whu_gs_spider spider start!
+2016-04-13 16:48:45.637396 whu_gs_spider spider start!
+2016-04-13 16:49:25.613566 whu_gs_spider spider start!
+2016-04-13 16:49:57.466499 whu_gs_spider spider start!
+2016-04-13 16:53:21.070125 whu_gs_spider spider start!
+2016-04-13 17:04:07.784854 whu_gs_spider spider start!
+2016-04-13 17:04:15.054487 Totally crawled 16 items whu_gs_spider spider has finished start!
+
+2016-04-13 17:11:34.727250 whu_gs_spider spider start!
+2016-04-13 17:22:30.450718 whu_gs_spider spider start!
+2016-04-13 20:21:24.879921 whu_gs_spider spider start!
+2016-04-13 20:21:24.923782 Totally crawled 10 items whu_gs_spider spider has finished start!
+
+2016-04-13 20:22:47.250362 whu_gs_spider spider start!

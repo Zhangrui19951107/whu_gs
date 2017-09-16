@@ -1,0 +1,46 @@
+Mon, 07 Dec 2015 16:35:04 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/home/zhangrui/whu_gs/whu_gs/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/home/zhangrui/whu_gs/whu_gs/scrapy/crawler.py", line 251, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/zhangrui/whu_gs/whu_gs/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/zhangrui/whu_gs/whu_gs/scrapy/core/engine.py", line 118, in _next_request
+    self.crawl(request, spider)
+  File "/home/zhangrui/whu_gs/whu_gs/scrapy/core/engine.py", line 180, in crawl
+    assert spider in self.open_spiders, \
+  File "/home/zhangrui/whu_gs/whu_gs/scrapy/core/engine.py", line 173, in open_spiders
+    return [selelf.spider] if self.spider else []
+exceptions.NameError: global name 'self' is not defined
+
+Mon, 07 Dec 2015 16:35:32 _legacy.py[line:154] CRITICAL Unhandled Error
+Traceback (most recent call last):
+  File "/home/zhangrui/whu_gs/whu_gs/scrapy/commands/crawl.py", line 58, in run
+    self.crawler_process.start()
+  File "/home/zhangrui/whu_gs/whu_gs/scrapy/crawler.py", line 251, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 1194, in run
+    self.mainLoop()
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 1203, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 825, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/zhangrui/whu_gs/whu_gs/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/zhangrui/whu_gs/whu_gs/scrapy/core/engine.py", line 118, in _next_request
+    self.crawl(request, spider)
+  File "/home/zhangrui/whu_gs/whu_gs/scrapy/core/engine.py", line 180, in crawl
+    assert spider in self.open_spiders, \
+  File "/home/zhangrui/whu_gs/whu_gs/scrapy/core/engine.py", line 173, in open_spiders
+    return [self.spider] if self.spider else []
+exceptions.NameError: global name 'self' is not defined
+

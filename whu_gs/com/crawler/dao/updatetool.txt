@@ -1,0 +1,55 @@
+UpdateTool
+
+引入方式
+from com.crawler.dao.UpdateTool import UpdateTool
+
+实例化
+updatetool = UpdateTool()
+
+1.时间的数据格式: 
+2015-07-30 15:42:35
+
+例:time = "2015-06-07" 或者time = "2015-06-07 12:21:11"
+if time >= updatetool.getPubDate("www.tsxbb.gov.cn"):
+	xxx
+
+2.接口
+(1)getPubDate(site_url)
+根据站点url(如:www.tsxbb.gov.cn)获取爬取数据的最新一条发布时间
+
+返回格式 "2015-07-30 15:42:35"
+
+例:
+last_time = updatetool.getPubDate("www.tsxbb.gov.cn")
+
+
+(2)getUpdateTime(site_url)
+根据站点url(如:www.tsxbb.gov.cn)获取爬取数据的最新一条回复时间
+
+返回格式 "2015-07-30 15:42:35"
+
+例:
+last_time = updatetool.getUpdateTime("www.tsxbb.gov.cn")
+
+(3)hasUrl(url)
+根据网页url(如:http://www.tsxbb.gov.cn/zxdt/201307/t20130731_7402.html)获取是否已有该url
+
+返回格式 布尔True,False
+
+例:
+if updatetool.hasUrl("http://www.tsxbb.gov.cn/zxdt/201307/t20130731_7402.html"):
+
+(4)deleteContent(url)
+根据网页url(如:http://www.tsxbb.gov.cn/zxdt/201307/t20130731_7402.html)删除内容
+
+用途:更新论坛增量，如果已有url，先删除原本的记录，再重新插入，保证数据最新
+
+返回格式:无
+
+例:
+updatetool.deleteContent("http://www.tsxbb.gov.cn/zxdt/201307/t20130731_7402.html")
+
+
+
+
+

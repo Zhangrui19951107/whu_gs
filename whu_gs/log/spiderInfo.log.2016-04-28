@@ -1,0 +1,434 @@
+Thu, 28 Apr 2016 14:22:18 _legacy.py[line:154] CRITICAL Unhandled error in Deferred:
+Thu, 28 Apr 2016 14:22:18 _legacy.py[line:154] CRITICAL 
+Thu, 28 Apr 2016 14:24:22 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Thu, 28 Apr 2016 14:24:22 mdownloader.py[line:240] INFO nothing
+Thu, 28 Apr 2016 14:24:22 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/exception_count': 1,
+ 'downloader/exception_type_count/_mysql_exceptions.ProgrammingError': 1,
+ 'downloader/request_bytes': 251,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 28, 6, 24, 22, 339530),
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 2,
+ 'scheduler/dequeued/redis': 1,
+ 'scheduler/enqueued/redis': 1,
+ 'start_time': datetime.datetime(2016, 4, 28, 6, 24, 22, 18912)}
+Thu, 28 Apr 2016 14:27:17 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Thu, 28 Apr 2016 14:27:17 mdownloader.py[line:240] INFO nothing
+Thu, 28 Apr 2016 14:27:17 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/exception_count': 1,
+ 'downloader/exception_type_count/_mysql_exceptions.ProgrammingError': 1,
+ 'downloader/request_bytes': 251,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 28, 6, 27, 17, 934954),
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 2,
+ 'scheduler/dequeued/redis': 1,
+ 'scheduler/enqueued/redis': 1,
+ 'start_time': datetime.datetime(2016, 4, 28, 6, 27, 17, 611944)}
+Thu, 28 Apr 2016 14:44:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Thu, 28 Apr 2016 16:30:53 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Thu, 28 Apr 2016 16:30:53 mdownloader.py[line:240] INFO nothing
+Thu, 28 Apr 2016 16:31:12 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/request_bytes': 21020,
+ 'downloader/request_count': 60,
+ 'downloader/request_method_count/GET': 60,
+ 'downloader/response_bytes': 1365746,
+ 'downloader/response_count': 60,
+ 'downloader/response_status_count/200': 60,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 28, 8, 31, 12, 856604),
+ 'log_count/DEBUG': 63,
+ 'log_count/INFO': 2,
+ 'request_depth_max': 3,
+ 'response_received_count': 60,
+ 'scheduler/dequeued/redis': 60,
+ 'scheduler/enqueued/redis': 60,
+ 'spider_exceptions/IndexError': 5,
+ 'start_time': datetime.datetime(2016, 4, 28, 8, 30, 53, 287400)}
+Thu, 28 Apr 2016 16:31:14 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Thu, 28 Apr 2016 16:31:14 mdownloader.py[line:240] INFO nothing
+Thu, 28 Apr 2016 16:31:14 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/request_bytes': 251,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 17171,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 28, 8, 31, 14, 800448),
+ 'log_count/DEBUG': 4,
+ 'log_count/INFO': 2,
+ 'request_depth_max': 1,
+ 'response_received_count': 1,
+ 'scheduler/dequeued/redis': 1,
+ 'scheduler/enqueued/redis': 1,
+ 'start_time': datetime.datetime(2016, 4, 28, 8, 31, 14, 237584)}
+Thu, 28 Apr 2016 16:32:56 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Thu, 28 Apr 2016 16:32:56 mdownloader.py[line:240] INFO nothing
+Thu, 28 Apr 2016 16:32:58 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Thu, 28 Apr 2016 16:32:58 mdownloader.py[line:240] INFO nothing
+Thu, 28 Apr 2016 16:33:03 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/request_bytes': 5686,
+ 'downloader/request_count': 18,
+ 'downloader/request_method_count/GET': 18,
+ 'downloader/response_bytes': 338375,
+ 'downloader/response_count': 18,
+ 'downloader/response_status_count/200': 18,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 28, 8, 33, 3, 220518),
+ 'log_count/DEBUG': 21,
+ 'log_count/INFO': 2,
+ 'request_depth_max': 1,
+ 'response_received_count': 18,
+ 'scheduler/dequeued/redis': 18,
+ 'scheduler/enqueued/redis': 27,
+ 'spider_exceptions/IndexError': 1,
+ 'start_time': datetime.datetime(2016, 4, 28, 8, 32, 56, 985034)}
+Thu, 28 Apr 2016 16:33:13 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/request_bytes': 15133,
+ 'downloader/request_count': 43,
+ 'downloader/request_method_count/GET': 43,
+ 'downloader/response_bytes': 1045064,
+ 'downloader/response_count': 43,
+ 'downloader/response_status_count/200': 43,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 28, 8, 33, 13, 56847),
+ 'log_count/DEBUG': 47,
+ 'log_count/INFO': 2,
+ 'request_depth_max': 2,
+ 'response_received_count': 43,
+ 'scheduler/dequeued/redis': 43,
+ 'scheduler/enqueued/redis': 34,
+ 'spider_exceptions/IndexError': 4,
+ 'start_time': datetime.datetime(2016, 4, 28, 8, 32, 58, 691935)}
+Thu, 28 Apr 2016 16:35:59 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Thu, 28 Apr 2016 16:35:59 mdownloader.py[line:240] INFO nothing
+Thu, 28 Apr 2016 16:36:01 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Thu, 28 Apr 2016 16:36:01 mdownloader.py[line:240] INFO nothing
+Thu, 28 Apr 2016 16:36:06 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/request_bytes': 5323,
+ 'downloader/request_count': 17,
+ 'downloader/request_method_count/GET': 17,
+ 'downloader/response_bytes': 321004,
+ 'downloader/response_count': 17,
+ 'downloader/response_status_count/200': 17,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 28, 8, 36, 6, 309804),
+ 'log_count/DEBUG': 20,
+ 'log_count/INFO': 2,
+ 'request_depth_max': 1,
+ 'response_received_count': 17,
+ 'scheduler/dequeued/redis': 17,
+ 'scheduler/enqueued/redis': 27,
+ 'spider_exceptions/IndexError': 1,
+ 'start_time': datetime.datetime(2016, 4, 28, 8, 35, 59, 897153)}
+Thu, 28 Apr 2016 16:36:18 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/request_bytes': 15450,
+ 'downloader/request_count': 44,
+ 'downloader/request_method_count/GET': 44,
+ 'downloader/response_bytes': 1062493,
+ 'downloader/response_count': 44,
+ 'downloader/response_status_count/200': 44,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 28, 8, 36, 18, 3914),
+ 'log_count/DEBUG': 48,
+ 'log_count/INFO': 2,
+ 'request_depth_max': 3,
+ 'response_received_count': 44,
+ 'scheduler/dequeued/redis': 44,
+ 'scheduler/enqueued/redis': 34,
+ 'spider_exceptions/IndexError': 4,
+ 'start_time': datetime.datetime(2016, 4, 28, 8, 36, 1, 369274)}
+Thu, 28 Apr 2016 16:37:42 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Thu, 28 Apr 2016 16:37:42 mdownloader.py[line:240] INFO nothing
+Thu, 28 Apr 2016 16:37:43 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Thu, 28 Apr 2016 16:37:43 mdownloader.py[line:240] INFO nothing
+Thu, 28 Apr 2016 16:37:43 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/request_bytes': 885,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 49475,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 3,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 28, 8, 37, 43, 731720),
+ 'log_count/DEBUG': 6,
+ 'log_count/INFO': 2,
+ 'request_depth_max': 1,
+ 'response_received_count': 3,
+ 'scheduler/dequeued/redis': 3,
+ 'scheduler/enqueued/redis': 3,
+ 'spider_exceptions/IndexError': 2,
+ 'start_time': datetime.datetime(2016, 4, 28, 8, 37, 42, 50826)}
+Thu, 28 Apr 2016 16:37:43 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/request_bytes': 251,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 17171,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 28, 8, 37, 43, 875408),
+ 'log_count/DEBUG': 4,
+ 'log_count/INFO': 2,
+ 'request_depth_max': 1,
+ 'response_received_count': 1,
+ 'scheduler/dequeued/redis': 1,
+ 'scheduler/enqueued/redis': 1,
+ 'start_time': datetime.datetime(2016, 4, 28, 8, 37, 43, 253107)}
+Thu, 28 Apr 2016 16:38:22 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Thu, 28 Apr 2016 16:38:22 mdownloader.py[line:240] INFO nothing
+Thu, 28 Apr 2016 16:38:23 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Thu, 28 Apr 2016 16:38:23 mdownloader.py[line:240] INFO nothing
+Thu, 28 Apr 2016 16:38:25 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1461832705_0_10002' for key 'PRIMARY'")
+Thu, 28 Apr 2016 16:38:26 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1461832706_0_10005' for key 'PRIMARY'")
+Thu, 28 Apr 2016 16:38:34 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/request_bytes': 11494,
+ 'downloader/request_count': 34,
+ 'downloader/request_method_count/GET': 34,
+ 'downloader/response_bytes': 750692,
+ 'downloader/response_count': 34,
+ 'downloader/response_status_count/200': 34,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 28, 8, 38, 34, 289590),
+ 'log_count/DEBUG': 37,
+ 'log_count/INFO': 2,
+ 'request_depth_max': 1,
+ 'response_received_count': 34,
+ 'scheduler/dequeued/redis': 34,
+ 'scheduler/enqueued/redis': 25,
+ 'spider_exceptions/IndexError': 3,
+ 'start_time': datetime.datetime(2016, 4, 28, 8, 38, 22, 587524)}
+Thu, 28 Apr 2016 17:11:55 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Thu, 28 Apr 2016 17:11:55 mdownloader.py[line:240] INFO nothing
+Thu, 28 Apr 2016 17:11:56 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Thu, 28 Apr 2016 17:11:56 mdownloader.py[line:240] INFO nothing
+Thu, 28 Apr 2016 17:12:55 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Thu, 28 Apr 2016 17:12:56 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/exception_count': 3,
+ 'downloader/exception_type_count/twisted.internet.error.DNSLookupError': 3,
+ 'downloader/request_bytes': 753,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 28, 9, 12, 56, 285227),
+ 'log_count/DEBUG': 6,
+ 'log_count/INFO': 3,
+ 'scheduler/dequeued/redis': 3,
+ 'scheduler/enqueued/redis': 3,
+ 'start_time': datetime.datetime(2016, 4, 28, 9, 11, 55, 951380)}
+Thu, 28 Apr 2016 17:12:56 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Thu, 28 Apr 2016 17:12:57 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/exception_count': 3,
+ 'downloader/exception_type_count/twisted.internet.error.DNSLookupError': 3,
+ 'downloader/request_bytes': 753,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 28, 9, 12, 57, 291653),
+ 'log_count/DEBUG': 6,
+ 'log_count/INFO': 3,
+ 'scheduler/dequeued/redis': 3,
+ 'scheduler/enqueued/redis': 3,
+ 'start_time': datetime.datetime(2016, 4, 28, 9, 11, 56, 983329)}
+Thu, 28 Apr 2016 17:17:53 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Thu, 28 Apr 2016 17:17:53 mdownloader.py[line:240] INFO nothing
+Thu, 28 Apr 2016 17:17:54 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Thu, 28 Apr 2016 17:17:54 mdownloader.py[line:240] INFO nothing
+Thu, 28 Apr 2016 17:18:00 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/request_bytes': 1519,
+ 'downloader/request_count': 5,
+ 'downloader/request_method_count/GET': 5,
+ 'downloader/response_bytes': 88199,
+ 'downloader/response_count': 5,
+ 'downloader/response_status_count/200': 5,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 28, 9, 18, 0, 997087),
+ 'log_count/DEBUG': 8,
+ 'log_count/INFO': 2,
+ 'request_depth_max': 1,
+ 'response_received_count': 5,
+ 'scheduler/dequeued/redis': 5,
+ 'scheduler/enqueued/redis': 5,
+ 'spider_exceptions/IndexError': 2,
+ 'start_time': datetime.datetime(2016, 4, 28, 9, 17, 54, 352026)}
+Thu, 28 Apr 2016 17:18:07 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/request_bytes': 25654,
+ 'downloader/request_count': 86,
+ 'downloader/request_method_count/GET': 86,
+ 'downloader/response_bytes': 973883,
+ 'downloader/response_count': 86,
+ 'downloader/response_status_count/200': 86,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 28, 9, 18, 7, 265069),
+ 'log_count/DEBUG': 89,
+ 'log_count/INFO': 2,
+ 'request_depth_max': 5,
+ 'response_received_count': 86,
+ 'scheduler/dequeued/redis': 86,
+ 'scheduler/enqueued/redis': 86,
+ 'spider_exceptions/UnboundLocalError': 48,
+ 'start_time': datetime.datetime(2016, 4, 28, 9, 17, 53, 93826)}
+Thu, 28 Apr 2016 17:20:26 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Thu, 28 Apr 2016 17:20:26 mdownloader.py[line:240] INFO nothing
+Thu, 28 Apr 2016 17:20:27 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Thu, 28 Apr 2016 17:20:27 mdownloader.py[line:240] INFO nothing
+Thu, 28 Apr 2016 17:20:41 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/request_bytes': 25654,
+ 'downloader/request_count': 86,
+ 'downloader/request_method_count/GET': 86,
+ 'downloader/response_bytes': 973781,
+ 'downloader/response_count': 86,
+ 'downloader/response_status_count/200': 86,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 28, 9, 20, 41, 781808),
+ 'log_count/DEBUG': 89,
+ 'log_count/INFO': 2,
+ 'request_depth_max': 5,
+ 'response_received_count': 86,
+ 'scheduler/dequeued/redis': 86,
+ 'scheduler/enqueued/redis': 86,
+ 'spider_exceptions/UnboundLocalError': 48,
+ 'start_time': datetime.datetime(2016, 4, 28, 9, 20, 26, 442144)}
+Thu, 28 Apr 2016 17:21:27 logstats.py[line:47] INFO Crawled 59 pages (at 59 pages/min), scraped 0 items (at 0 items/min)
+Thu, 28 Apr 2016 17:22:27 logstats.py[line:47] INFO Crawled 59 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Thu, 28 Apr 2016 17:23:27 logstats.py[line:47] INFO Crawled 59 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Thu, 28 Apr 2016 17:23:44 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/exception_count': 1,
+ 'downloader/exception_type_count/twisted.internet.error.TimeoutError': 1,
+ 'downloader/request_bytes': 21383,
+ 'downloader/request_count': 61,
+ 'downloader/request_method_count/GET': 61,
+ 'downloader/response_bytes': 1365746,
+ 'downloader/response_count': 60,
+ 'downloader/response_status_count/200': 60,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 28, 9, 23, 44, 49649),
+ 'log_count/DEBUG': 64,
+ 'log_count/INFO': 5,
+ 'request_depth_max': 3,
+ 'response_received_count': 60,
+ 'scheduler/dequeued/redis': 61,
+ 'scheduler/enqueued/redis': 61,
+ 'spider_exceptions/IndexError': 5,
+ 'start_time': datetime.datetime(2016, 4, 28, 9, 20, 27, 692762)}
+Thu, 28 Apr 2016 17:39:19 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Thu, 28 Apr 2016 17:39:19 mdownloader.py[line:240] INFO nothing
+Thu, 28 Apr 2016 17:39:20 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Thu, 28 Apr 2016 17:39:20 mdownloader.py[line:240] INFO nothing
+Thu, 28 Apr 2016 17:39:26 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/request_bytes': 25654,
+ 'downloader/request_count': 86,
+ 'downloader/request_method_count/GET': 86,
+ 'downloader/response_bytes': 982942,
+ 'downloader/response_count': 86,
+ 'downloader/response_status_count/200': 86,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 28, 9, 39, 26, 905139),
+ 'log_count/DEBUG': 89,
+ 'log_count/INFO': 2,
+ 'request_depth_max': 5,
+ 'response_received_count': 86,
+ 'scheduler/dequeued/redis': 86,
+ 'scheduler/enqueued/redis': 86,
+ 'spider_exceptions/UnboundLocalError': 48,
+ 'start_time': datetime.datetime(2016, 4, 28, 9, 39, 19, 175949)}
+Thu, 28 Apr 2016 17:39:36 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/request_bytes': 21020,
+ 'downloader/request_count': 60,
+ 'downloader/request_method_count/GET': 60,
+ 'downloader/response_bytes': 1365746,
+ 'downloader/response_count': 60,
+ 'downloader/response_status_count/200': 60,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 28, 9, 39, 36, 638367),
+ 'log_count/DEBUG': 63,
+ 'log_count/INFO': 2,
+ 'request_depth_max': 3,
+ 'response_received_count': 60,
+ 'scheduler/dequeued/redis': 60,
+ 'scheduler/enqueued/redis': 60,
+ 'spider_exceptions/IndexError': 5,
+ 'start_time': datetime.datetime(2016, 4, 28, 9, 39, 20, 402947)}
+Thu, 28 Apr 2016 17:48:30 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Thu, 28 Apr 2016 17:48:30 mdownloader.py[line:240] INFO nothing
+Thu, 28 Apr 2016 17:48:32 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Thu, 28 Apr 2016 17:48:32 mdownloader.py[line:240] INFO nothing
+Thu, 28 Apr 2016 17:48:33 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1461836913_0_10005' for key 'PRIMARY'")
+Thu, 28 Apr 2016 17:48:33 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1461836913_0_10006' for key 'PRIMARY'")
+Thu, 28 Apr 2016 17:48:33 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1461836913_0_10007' for key 'PRIMARY'")
+Thu, 28 Apr 2016 17:48:33 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1461836913_0_10008' for key 'PRIMARY'")
+Thu, 28 Apr 2016 17:48:39 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/request_bytes': 25654,
+ 'downloader/request_count': 86,
+ 'downloader/request_method_count/GET': 86,
+ 'downloader/response_bytes': 982941,
+ 'downloader/response_count': 86,
+ 'downloader/response_status_count/200': 86,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 28, 9, 48, 39, 938563),
+ 'log_count/DEBUG': 89,
+ 'log_count/INFO': 2,
+ 'request_depth_max': 5,
+ 'response_received_count': 86,
+ 'scheduler/dequeued/redis': 86,
+ 'scheduler/enqueued/redis': 86,
+ 'spider_exceptions/UnboundLocalError': 48,
+ 'start_time': datetime.datetime(2016, 4, 28, 9, 48, 32, 34498)}
+Thu, 28 Apr 2016 17:53:29 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Thu, 28 Apr 2016 17:53:29 mdownloader.py[line:240] INFO nothing
+Thu, 28 Apr 2016 17:53:30 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Thu, 28 Apr 2016 17:53:30 mdownloader.py[line:240] INFO nothing
+Thu, 28 Apr 2016 17:53:31 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1461837211_0_10001' for key 'PRIMARY'")
+Thu, 28 Apr 2016 17:53:38 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/request_bytes': 25654,
+ 'downloader/request_count': 86,
+ 'downloader/request_method_count/GET': 86,
+ 'downloader/response_bytes': 983157,
+ 'downloader/response_count': 86,
+ 'downloader/response_status_count/200': 86,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 28, 9, 53, 38, 546181),
+ 'log_count/DEBUG': 89,
+ 'log_count/INFO': 2,
+ 'request_depth_max': 5,
+ 'response_received_count': 86,
+ 'scheduler/dequeued/redis': 86,
+ 'scheduler/enqueued/redis': 86,
+ 'spider_exceptions/UnboundLocalError': 48,
+ 'start_time': datetime.datetime(2016, 4, 28, 9, 53, 30, 454510)}
+Thu, 28 Apr 2016 17:56:57 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Thu, 28 Apr 2016 17:56:57 mdownloader.py[line:240] INFO nothing
+Thu, 28 Apr 2016 17:56:58 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/request_bytes': 251,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 17171,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 4, 28, 9, 56, 58, 607814),
+ 'log_count/DEBUG': 4,
+ 'log_count/INFO': 2,
+ 'request_depth_max': 1,
+ 'response_received_count': 1,
+ 'scheduler/dequeued/redis': 1,
+ 'scheduler/enqueued/redis': 1,
+ 'start_time': datetime.datetime(2016, 4, 28, 9, 56, 57, 505649)}
+Thu, 28 Apr 2016 18:13:36 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Thu, 28 Apr 2016 18:13:36 mdownloader.py[line:240] INFO nothing
+Thu, 28 Apr 2016 18:13:38 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Thu, 28 Apr 2016 18:13:38 mdownloader.py[line:240] INFO nothing
+Thu, 28 Apr 2016 18:13:40 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1461838420_0_10001' for key 'PRIMARY'")
+Thu, 28 Apr 2016 18:13:40 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1461838420_0_10002' for key 'PRIMARY'")
+Thu, 28 Apr 2016 18:13:40 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1461838420_0_10003' for key 'PRIMARY'")
+Thu, 28 Apr 2016 18:13:41 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1461838421_0_10006' for key 'PRIMARY'")
+Thu, 28 Apr 2016 18:13:41 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1461838421_0_10007' for key 'PRIMARY'")
+Thu, 28 Apr 2016 18:13:42 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1461838422_0_10008' for key 'PRIMARY'")
+Thu, 28 Apr 2016 18:13:42 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1461838422_0_10009' for key 'PRIMARY'")
+Thu, 28 Apr 2016 18:13:42 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1461838422_0_10010' for key 'PRIMARY'")

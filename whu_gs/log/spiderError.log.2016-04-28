@@ -1,0 +1,17 @@
+Thu, 28 Apr 2016 14:22:18 _legacy.py[line:154] CRITICAL Unhandled error in Deferred:
+Thu, 28 Apr 2016 14:22:18 _legacy.py[line:154] CRITICAL 
+Thu, 28 Apr 2016 16:38:25 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1461832705_0_10002' for key 'PRIMARY'")
+Thu, 28 Apr 2016 16:38:26 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1461832706_0_10005' for key 'PRIMARY'")
+Thu, 28 Apr 2016 17:48:33 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1461836913_0_10005' for key 'PRIMARY'")
+Thu, 28 Apr 2016 17:48:33 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1461836913_0_10006' for key 'PRIMARY'")
+Thu, 28 Apr 2016 17:48:33 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1461836913_0_10007' for key 'PRIMARY'")
+Thu, 28 Apr 2016 17:48:33 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1461836913_0_10008' for key 'PRIMARY'")
+Thu, 28 Apr 2016 17:53:31 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1461837211_0_10001' for key 'PRIMARY'")
+Thu, 28 Apr 2016 18:13:40 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1461838420_0_10001' for key 'PRIMARY'")
+Thu, 28 Apr 2016 18:13:40 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1461838420_0_10002' for key 'PRIMARY'")
+Thu, 28 Apr 2016 18:13:40 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1461838420_0_10003' for key 'PRIMARY'")
+Thu, 28 Apr 2016 18:13:41 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1461838421_0_10006' for key 'PRIMARY'")
+Thu, 28 Apr 2016 18:13:41 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1461838421_0_10007' for key 'PRIMARY'")
+Thu, 28 Apr 2016 18:13:42 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1461838422_0_10008' for key 'PRIMARY'")
+Thu, 28 Apr 2016 18:13:42 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1461838422_0_10009' for key 'PRIMARY'")
+Thu, 28 Apr 2016 18:13:42 pipelines.py[line:171] ERROR (1062, "Duplicate entry '1461838422_0_10010' for key 'PRIMARY'")

@@ -1,0 +1,158 @@
+Tue, 22 Dec 2015 20:22:38 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Tue, 22 Dec 2015 20:23:02 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/request_bytes': 18072,
+ 'downloader/request_count': 52,
+ 'downloader/request_method_count/GET': 52,
+ 'downloader/response_bytes': 1421026,
+ 'downloader/response_count': 52,
+ 'downloader/response_status_count/200': 52,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2015, 12, 22, 12, 23, 2, 117836),
+ 'log_count/DEBUG': 53,
+ 'log_count/INFO': 1,
+ 'request_depth_max': 2,
+ 'response_received_count': 52,
+ 'scheduler/dequeued': 52,
+ 'scheduler/dequeued/memory': 52,
+ 'scheduler/enqueued': 52,
+ 'scheduler/enqueued/memory': 52,
+ 'spider_exceptions/IndexError': 3,
+ 'start_time': datetime.datetime(2015, 12, 22, 12, 22, 38, 611222)}
+Tue, 22 Dec 2015 20:31:33 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Tue, 22 Dec 2015 20:31:33 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2015, 12, 22, 12, 31, 33, 836830),
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 1,
+ 'start_time': datetime.datetime(2015, 12, 22, 12, 31, 33, 835427)}
+Tue, 22 Dec 2015 20:31:43 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Tue, 22 Dec 2015 20:31:51 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Tue, 22 Dec 2015 20:31:51 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2015, 12, 22, 12, 31, 51, 524865),
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 1,
+ 'start_time': datetime.datetime(2015, 12, 22, 12, 31, 51, 523272)}
+Tue, 22 Dec 2015 20:32:16 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Tue, 22 Dec 2015 20:32:16 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2015, 12, 22, 12, 32, 16, 69652),
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 1,
+ 'start_time': datetime.datetime(2015, 12, 22, 12, 32, 16, 63793)}
+Tue, 22 Dec 2015 20:32:30 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Tue, 22 Dec 2015 20:32:30 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2015, 12, 22, 12, 32, 30, 911858),
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 1,
+ 'start_time': datetime.datetime(2015, 12, 22, 12, 32, 30, 901847)}
+Tue, 22 Dec 2015 20:32:56 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Tue, 22 Dec 2015 20:32:56 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2015, 12, 22, 12, 32, 56, 747692),
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 1,
+ 'start_time': datetime.datetime(2015, 12, 22, 12, 32, 56, 741846)}
+Tue, 22 Dec 2015 20:33:36 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Tue, 22 Dec 2015 20:33:36 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2015, 12, 22, 12, 33, 36, 367992),
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 1,
+ 'start_time': datetime.datetime(2015, 12, 22, 12, 33, 36, 366433)}
+Tue, 22 Dec 2015 20:33:48 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Tue, 22 Dec 2015 20:33:48 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2015, 12, 22, 12, 33, 48, 507723),
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 1,
+ 'start_time': datetime.datetime(2015, 12, 22, 12, 33, 48, 501752)}
+Tue, 22 Dec 2015 20:34:40 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Tue, 22 Dec 2015 20:34:40 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2015, 12, 22, 12, 34, 40, 932052),
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 1,
+ 'start_time': datetime.datetime(2015, 12, 22, 12, 34, 40, 926077)}
+Tue, 22 Dec 2015 20:34:52 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Tue, 22 Dec 2015 20:34:52 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2015, 12, 22, 12, 34, 52, 729544),
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 1,
+ 'start_time': datetime.datetime(2015, 12, 22, 12, 34, 52, 728186)}
+Tue, 22 Dec 2015 20:37:06 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Tue, 22 Dec 2015 20:37:06 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2015, 12, 22, 12, 37, 6, 649101),
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 1,
+ 'start_time': datetime.datetime(2015, 12, 22, 12, 37, 6, 643196)}
+Tue, 22 Dec 2015 20:37:21 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Tue, 22 Dec 2015 20:37:21 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2015, 12, 22, 12, 37, 21, 568169),
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 1,
+ 'start_time': datetime.datetime(2015, 12, 22, 12, 37, 21, 562432)}
+Tue, 22 Dec 2015 20:38:53 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Tue, 22 Dec 2015 20:38:53 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2015, 12, 22, 12, 38, 53, 810246),
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 1,
+ 'start_time': datetime.datetime(2015, 12, 22, 12, 38, 53, 799053)}
+Tue, 22 Dec 2015 20:45:07 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2015, 12, 22, 12, 45, 7, 868063),
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 1,
+ 'start_time': datetime.datetime(2015, 12, 22, 12, 31, 43, 740084)}
+Tue, 22 Dec 2015 20:45:31 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Tue, 22 Dec 2015 20:45:31 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2015, 12, 22, 12, 45, 31, 482956),
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 1,
+ 'start_time': datetime.datetime(2015, 12, 22, 12, 45, 31, 480936)}
+Tue, 22 Dec 2015 20:47:53 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Tue, 22 Dec 2015 20:48:51 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/request_bytes': 211,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 27698,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2015, 12, 22, 12, 48, 51, 326475),
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 1,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/ValueError': 1,
+ 'start_time': datetime.datetime(2015, 12, 22, 12, 47, 53, 193290)}
+Tue, 22 Dec 2015 20:50:23 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Tue, 22 Dec 2015 20:54:22 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Tue, 22 Dec 2015 20:54:27 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'downloader/request_bytes': 211,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 27694,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2015, 12, 22, 12, 54, 27, 690704),
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 1,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/ValueError': 1,
+ 'start_time': datetime.datetime(2015, 12, 22, 12, 54, 22, 680893)}
+Tue, 22 Dec 2015 20:55:16 logstats.py[line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)

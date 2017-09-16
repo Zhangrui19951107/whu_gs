@@ -1,0 +1,27 @@
+{
+	"site":[
+	{"name":"huanqiu",
+	 "crawlername":"huanqiu_domesticnews_item",
+	 "limit":0,
+	 "v":0,
+	 "weight":0.0,
+	 "whethermass":0,
+	 "inuse":0}
+	],
+	"site_back":[
+	{"name":"whugs",
+	 "crawlername":"whu_gs_spider",
+	 "limit":0,
+	 "v":0,
+	 "weight":0.0,
+	 "whethermass":0,
+	 "inuse":0},
+	{"name":"huanqiu",
+	"crawlername":"huanqiu_domesticnews_item",
+	"limit":0,
+	"v":0,
+	"weight":0.0,
+	"whethermass":0,
+	"inuse":0}
+	]
+}
